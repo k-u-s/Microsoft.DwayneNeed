@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.DwayneNeed", "Microsoft.DwayneNeed\Microsoft.DwayneNeed.csproj", "{80A10B86-6615-4440-93B0-C943DF5B8693}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.DwayneNeed", "Microsoft.DwayneNeed\Microsoft.DwayneNeed.csproj", "{80A10B86-6615-4440-93B0-C943DF5B8693}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomBitmapDemo", "CustomBitmapDemo\CustomBitmapDemo.csproj", "{27576791-AFD0-45D1-BA98-F8654856B9E8}"
 EndProject
@@ -11,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchicalDataDemo", "Hie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobeDemo", "GlobeDemo\GlobeDemo.csproj", "{4BB56CC7-EB9E-4F3A-92C8-038140FECAF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadDataGridDemo", "MultiThreadDataGridDemo\MultiThreadDataGridDemo.csproj", "{C983468C-CDEF-489A-AD41-71099091ADB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreadDataGridDemo", "MultiThreadDataGridDemo\MultiThreadDataGridDemo.csproj", "{C983468C-CDEF-489A-AD41-71099091ADB1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeakEventDemo", "WeakEventDemo\WeakEventDemo.csproj", "{A73BADBA-EB8D-4679-A4C0-DAC41F2C0E37}"
 EndProject
@@ -23,7 +25,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D2DSamples", "D2DSamples\D2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCmd", "TestCmd\TestCmd.csproj", "{60010C5E-F371-44FA-A064-5CF85B0325A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.DwayneNeed.Win32", "Microsoft.DwayneNeed.Win32\Microsoft.DwayneNeed.Win32.csproj", "{39337E67-FDBB-4B17-AB5F-B65820CCD11E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.DwayneNeed.Win32", "Microsoft.DwayneNeed.Win32\Microsoft.DwayneNeed.Win32.csproj", "{39337E67-FDBB-4B17-AB5F-B65820CCD11E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft.DwayneNeed.Reactive", "Microsoft.DwayneNeed.Reactive", "{BAFCCB5D-8065-47AD-BD91-6790B7BE63C3}"
 EndProject
@@ -34,60 +36,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.DwayneNeed.Reactive.UnitTests", "Microsoft.DwayneNeed.Reactive.UnitTests\Microsoft.DwayneNeed.Reactive.UnitTests.csproj", "{CFB8E5F7-4D2D-4992-80D3-48445442BCE4}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 16
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs06
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Microsoft.DwayneNeed\\Microsoft.DwayneNeed.csproj
-		SccProjectName1 = Microsoft.DwayneNeed
-		SccLocalPath1 = Microsoft.DwayneNeed
-		SccProjectUniqueName2 = CustomBitmapDemo\\CustomBitmapDemo.csproj
-		SccProjectName2 = CustomBitmapDemo
-		SccLocalPath2 = CustomBitmapDemo
-		SccProjectUniqueName3 = VisualTargetDemo\\VisualTargetDemo.csproj
-		SccProjectName3 = VisualTargetDemo
-		SccLocalPath3 = VisualTargetDemo
-		SccProjectUniqueName4 = HierarchicalDataDemo\\HierarchicalDataDemo.csproj
-		SccProjectName4 = HierarchicalDataDemo
-		SccLocalPath4 = HierarchicalDataDemo
-		SccProjectUniqueName5 = GlobeDemo\\GlobeDemo.csproj
-		SccProjectName5 = GlobeDemo
-		SccLocalPath5 = GlobeDemo
-		SccProjectUniqueName6 = MultiThreadDataGridDemo\\MultiThreadDataGridDemo.csproj
-		SccProjectName6 = MultiThreadDataGridDemo
-		SccLocalPath6 = MultiThreadDataGridDemo
-		SccProjectUniqueName7 = WeakEventDemo\\WeakEventDemo.csproj
-		SccProjectName7 = WeakEventDemo
-		SccLocalPath7 = WeakEventDemo
-		SccProjectUniqueName8 = DemoApp\\DemoApp.csproj
-		SccProjectName8 = DemoApp
-		SccLocalPath8 = DemoApp
-		SccProjectUniqueName9 = WindowsFormsControls\\WindowsFormsControls.csproj
-		SccProjectName9 = WindowsFormsControls
-		SccLocalPath9 = WindowsFormsControls
-		SccProjectUniqueName10 = D2DSamples\\D2DSamples.vcxproj
-		SccProjectName10 = D2DSamples
-		SccLocalPath10 = D2DSamples
-		SccProjectUniqueName11 = TestCmd\\TestCmd.csproj
-		SccProjectName11 = TestCmd
-		SccLocalPath11 = TestCmd
-		SccProjectUniqueName12 = Microsoft.DwayneNeed.Win32\\Microsoft.DwayneNeed.Win32.csproj
-		SccProjectName12 = Microsoft.DwayneNeed.Win32
-		SccLocalPath12 = Microsoft.DwayneNeed.Win32
-		SccProjectUniqueName13 = Microsoft.DwayneNeed.Reactive.Contract\\Microsoft.DwayneNeed.Reactive.Contract.csproj
-		SccProjectTopLevelParentUniqueName13 = Microsoft.DwayneNeed.sln
-		SccProjectName13 = Microsoft.DwayneNeed.Reactive.Contract
-		SccLocalPath13 = Microsoft.DwayneNeed.Reactive.Contract
-		SccProjectUniqueName14 = Microsoft.DwayneNeed.Reactive\\Microsoft.DwayneNeed.Reactive.csproj
-		SccProjectTopLevelParentUniqueName14 = Microsoft.DwayneNeed.sln
-		SccProjectName14 = Microsoft.DwayneNeed.Reactive
-		SccLocalPath14 = Microsoft.DwayneNeed.Reactive
-		SccProjectUniqueName15 = Microsoft.DwayneNeed.Reactive.UnitTests\\Microsoft.DwayneNeed.Reactive.UnitTests.csproj
-		SccProjectTopLevelParentUniqueName15 = Microsoft.DwayneNeed.sln
-		SccProjectName15 = Microsoft.DwayneNeed.Reactive.UnitTests
-		SccLocalPath15 = Microsoft.DwayneNeed.Reactive.UnitTests
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -161,8 +109,8 @@ Global
 		{4BB56CC7-EB9E-4F3A-92C8-038140FECAF6}.Release|x86.ActiveCfg = Release|Any CPU
 		{C983468C-CDEF-489A-AD41-71099091ADB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C983468C-CDEF-489A-AD41-71099091ADB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C983468C-CDEF-489A-AD41-71099091ADB1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{C983468C-CDEF-489A-AD41-71099091ADB1}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C983468C-CDEF-489A-AD41-71099091ADB1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C983468C-CDEF-489A-AD41-71099091ADB1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{C983468C-CDEF-489A-AD41-71099091ADB1}.Debug|Win32.ActiveCfg = Debug|Any CPU
 		{C983468C-CDEF-489A-AD41-71099091ADB1}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{C983468C-CDEF-489A-AD41-71099091ADB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -291,5 +239,8 @@ Global
 		{33EDF422-30A2-4BE0-9226-D9C66B33FFF5} = {BAFCCB5D-8065-47AD-BD91-6790B7BE63C3}
 		{19C705AD-C49F-4DBA-8AE0-081E70F0C6B2} = {BAFCCB5D-8065-47AD-BD91-6790B7BE63C3}
 		{CFB8E5F7-4D2D-4992-80D3-48445442BCE4} = {BAFCCB5D-8065-47AD-BD91-6790B7BE63C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36655269-240B-4E87-9B81-B87621E1E30A}
 	EndGlobalSection
 EndGlobal
