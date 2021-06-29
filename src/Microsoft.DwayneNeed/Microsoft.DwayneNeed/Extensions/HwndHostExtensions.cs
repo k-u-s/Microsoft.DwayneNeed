@@ -140,10 +140,13 @@ namespace Microsoft.DwayneNeed.Extensions
                 if (!TryHookWndProc(hwndHost))
                 {
                     // Try again later, when the HwndHost is loaded.
-                    hwndHost.Loaded += (s, e) => TryHookWndProc((HwndHost)s);
+                    hwndHost.Loaded += HwndHostOnLoaded;
                 }
             }
         }
+
+        private static void HwndHostOnLoaded(object sender, RoutedEventArgs e)
+            => TryHookWndProc((HwndHost)sender);
 
         private static bool TryHookWndProc(HwndHost hwndHost)
         {
@@ -175,6 +178,8 @@ namespace Microsoft.DwayneNeed.Extensions
                 HwndHostExtensionsWindowHook hook = (HwndHostExtensionsWindowHook) hwndHost.GetValue(WindowHookProperty);
                 hook.Dispose();
                 hwndHost.ClearValue(WindowHookProperty);
+
+                hwndHost.Loaded -= HwndHostOnLoaded;
             }
         }
 
